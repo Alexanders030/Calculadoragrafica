@@ -5,7 +5,7 @@ import tkinter as tk
 # from multiplicacion import abrir_multiplicacion
 # from division import abrir_division
 # from potencia import abrir_potencia
-# from raiz import abrir_raiz
+from raiz import abrir_raiz
 
 
 # Crear ventana principal
@@ -108,7 +108,7 @@ boton_raiz = tk.Button(
     width=20,
     height=2,
     font=("Arial", 12),
-    command=lambda: print("Botón RAÍZ CUADRADA presionado")  # Temporal: abrir_raiz(ventana)
+    command=lambda: abrir_raiz(ventana)
 )
 
 boton_raiz.pack(pady=5)
