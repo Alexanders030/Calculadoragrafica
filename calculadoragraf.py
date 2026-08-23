@@ -1,6 +1,6 @@
 import tkinter as tk
 
-# from suma import abrir_suma
+from suma import abrir_suma
 # from resta import abrir_resta
 # from multiplicacion import abrir_multiplicacion
 # from division import abrir_division
@@ -43,7 +43,7 @@ boton_suma = tk.Button(
     width=20,
     height=2,
     font=("Arial", 12),
-    command=lambda: print("Botón SUMA presionado")  # Temporal: abrir_suma(ventana)
+    command=lambda: abrir_suma(ventana)
 )
 
 boton_suma.pack(pady=5)
