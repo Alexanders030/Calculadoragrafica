@@ -4,7 +4,7 @@ import tkinter as tk
 # from resta import abrir_resta
 # from multiplicacion import abrir_multiplicacion
 # from division import abrir_division
-# from potencia import abrir_potencia
+from potencia import abrir_potencia
 # from raiz import abrir_raiz
 
 
@@ -95,7 +95,7 @@ boton_potencia = tk.Button(
     width=20,
     height=2,
     font=("Arial", 12),
-    command=lambda: print("Botón POTENCIA presionado")  # Temporal: abrir_potencia(ventana)
+    command=lambda:  abrir_potencia(ventana)
 )
 
 boton_potencia.pack(pady=5)
