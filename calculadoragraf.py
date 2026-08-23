@@ -1,7 +1,12 @@
 import tkinter as tk
 
+
 from suma import abrir_suma
 # from resta import abrir_resta
+
+# from suma import abrir_suma
+from resta import abrir_resta
+
 # from multiplicacion import abrir_multiplicacion
 # from division import abrir_division
 # from multiplicacion import abrir_multiplicacion
@@ -58,7 +63,7 @@ boton_resta = tk.Button(
     width=20,
     height=2,
     font=("Arial", 12),
-    command=lambda: print("Botón RESTA presionado")  # Temporal: abrir_resta(ventana)
+    command=lambda: abrir_resta(ventana)
 )
 
 boton_resta.pack(pady=5)
