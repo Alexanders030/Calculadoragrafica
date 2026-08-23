@@ -2,7 +2,7 @@ import tkinter as tk
 
 from suma import abrir_suma
 # from resta import abrir_resta
-from multiplicacion import abrir_multiplicacion
+# from multiplicacion import abrir_multiplicacion
 # from division import abrir_division
 # from multiplicacion import abrir_multiplicacion
 from Division import abrir_division
@@ -71,7 +71,7 @@ boton_multiplicacion = tk.Button(
     width=20,
     height=2,
     font=("Arial", 12),
-    command=lambda:abrir_multiplicacion(ventana)  # Temporal: abrir_multiplicacion(ventana)
+    command=lambda: print("Botón MULTIPLICACIÓN presionado")  # Temporal: abrir_multiplicacion(ventana)
 )
 
 boton_multiplicacion.pack(pady=5)
